@@ -27,6 +27,6 @@ module sad_calculator (
         output wire [4095:0] sad_results     // 16*16 results (int16)
     );
 
-    reg [4095:0] sad_results_reg;
+    reg [223:0] sad_results_reg;
 
 endmodule
